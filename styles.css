@@ -203,3 +203,38 @@ header h1 {
     font-weight: 700;
     text-align: end;
 }
+
+.cta {
+    padding: 60px 100px;
+}
+
+.cta-b {
+    background-color: #3992f6;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 50px;
+    border-radius: 10px;
+}
+
+.cta-b .left h4 {
+    color: #f9faf8;
+    font-weight: 600;
+    font-size: 16px;
+
+}
+
+.cta-b .left p {
+    color: #f9faf8;
+    font-size: 15px;
+
+}
+
+.cta-b button {
+    background-color: #3992f6;
+    border: 2px solid #f9faf8;
+    border-radius: 5px;
+    padding: 0px 20px;
+    color: #f9faf8;
+    height: 35px;
+    align-self: center;
+}
