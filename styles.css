@@ -134,14 +134,15 @@ header h1 {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex: 1;
 
 }
 
 .random {
-    padding: 20px;
+    padding: 50px;
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 40px;
     align-items: center;
 }
 
@@ -177,4 +178,28 @@ header h1 {
     font-size: 15px;
     width: 150px;
     text-align: center;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    padding: 55px 160px;
+    align-items: center;
+
+}
+
+.quote p {
+    font-size: 25px;
+    font-weight: 100;
+    font-style: italic;
+    width: 520px;
+}
+
+.quote .by p {
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    text-align: end;
 }
