@@ -249,6 +249,7 @@ footer {
     align-items: center;
     height: 50px;
     flex-direction: column;
+    padding: 50px;
 }
 
 footer a {
