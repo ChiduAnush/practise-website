@@ -136,3 +136,45 @@ header h1 {
     align-items: center;
 
 }
+
+.random {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.random h1 {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.bboxes {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+
+}
+
+.b {
+    width: 180px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.bbox {
+    width: 180px;
+    height: 180px;
+    border: 2px solid #3f7cd1;
+    border-radius: 15px;
+}
+
+.b p {
+    color: #6e7074;
+    font-size: 15px;
+    width: 150px;
+    text-align: center;
+}
