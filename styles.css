@@ -73,10 +73,11 @@ body {
 header {
     background-color: #1f2937;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     flex: 1;
     height: 50px;
+    padding: 0px 100px;
 }
 
 header h1 {
@@ -90,5 +91,48 @@ header h1 {
     font-size: 14px;
     align-items: center;
     color: #e5e7eb;
-    gap: 12px;
+    gap: 15px;
+}
+
+.hero {
+    display: flex;
+    padding: 80px 100px;
+    background-color: #1f2937;
+    justify-content: space-between;
+
+}
+
+.left h1 {
+    color: #f9faf8;
+    font-weight: 700;
+    font-size: 40px;
+    width: 300px;
+}
+
+.left p {
+    color: #e5e7eb;
+    font-size: 16px;
+    width: 500px;
+}
+
+.left button {
+    padding: 2px 25px;
+    background-color: rgb(41, 122, 221);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: 500;
+    margin-top: 10px;
+
+}
+
+.right .box {
+    background-color: rgba(255, 255, 255, 0.243);
+    color: white;
+    width: 400px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
