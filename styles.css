@@ -67,34 +67,7 @@ svg {
 /* ---------------------- */
 
 header {
-    display: flex;
-    flex-direction: row;
-    flex: 1, 1, 0;
-    justify-content: center;
-    gap: 600px;
-    padding: 15px;
-    font-family: sans-serif;
     background-color: #1f2937;
-}
-
-header>h1 {
-    font-weight: 700;
-    font-size: 24px;
-    color: #f9faf8;
-}
-
-.hnav {
     display: flex;
-    flex-direction: row;
-    gap: 20px;
-    font-weight: 100;
+    justify-content: space-around;
 }
-
-.hnav>p {
-    font-size: 18px;
-    color: #e5e7eb;
-}
-
-/* * {
-    border: solid 1px red;
-} */
